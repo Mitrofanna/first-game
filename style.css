@@ -23,7 +23,26 @@
     position: relative;
     top: 110px;
     left: 580px;
-    animation: treeMov 1s infinite linear;
+    animation: treeMov 2s infinite linear;
+}
+
+.cloud {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/cloud.svg");
+    position: relative;
+    top: -60px;
+    left: 580px;
+    animation: cloudMov 4s infinite linear;
+}
+
+@keyframes cloudMov {
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
 }
 
 @keyframes treeMov {
@@ -36,7 +55,7 @@
 }
 
 .jump {
-    animation: jump 1s linear;
+    animation: jump 0.3s linear;
 }
 
 @keyframes jump {
