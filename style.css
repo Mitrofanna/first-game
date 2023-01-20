@@ -23,5 +23,40 @@
     position: relative;
     top: 110px;
     left: 580px;
-    animation: treeMov Is infinite linear;
+    animation: treeMov 1s infinite linear;
+}
+
+@keyframes treeMov {
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 1s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    30% {
+        top: 130px;
+    }
+
+    50% {
+        top: 80px;
+    }
+
+    80% {
+        top: 130px;
+    }
+
+    100% {
+        top: 150px;
+    }
 }
