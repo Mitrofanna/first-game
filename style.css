@@ -23,4 +23,5 @@
     position: relative;
     top: 110px;
     left: 580px;
+    animation: treeMov Is infinite linear;
 }
