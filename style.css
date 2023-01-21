@@ -5,6 +5,17 @@
     margin: auto;
 }
 
+.text {
+    font-weight: 700;
+    line-height: 14;
+    font-size: 20px;
+    color: #444444;
+    position: relative;
+    top: -210px;
+    left: 350px;
+    animation: textMov 5s infinite linear;
+}
+
 .rider {
     width: 50px;
     height: 50px;
@@ -34,6 +45,15 @@
     top: -60px;
     left: 580px;
     animation: cloudMov 4s infinite linear;
+}
+
+@keyframes textMov {
+    0% {
+      left: 350px;
+    }
+    100% {
+      left: 0;
+    }
 }
 
 @keyframes cloudMov {

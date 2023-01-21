@@ -19,6 +19,6 @@ let isAlive = setInterval (function() {
   let riderTop = parseInt(window.getComputedStyle(rider).getPropertyValue('top'));
   let treeLeft = parseInt(window.getComputedStyle(tree).getPropertyValue('left'));
   if(treeLeft < 40 && treeLeft > 0 && riderTop >= 140) {
-    alert ('over');
+    alert ('Жинтос ты все профукал');
   }
 }, 10)
